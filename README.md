@@ -1,4 +1,5 @@
 MOVIE RECOMMENDATION SYSTEM
+
 Welcome to the Movie Recommendation System project! This project demonstrates a basic movie recommendation engine built using Python. It leverages content-based filtering to suggest movies similar to the one you input. The system compares movie plots and recommends titles that share similarities based on cosine similarity.
 
 Features
