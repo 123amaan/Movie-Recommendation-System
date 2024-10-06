@@ -3,14 +3,14 @@ MOVIE RECOMMENDATION SYSTEM
 Welcome to the Movie Recommendation System project! This project demonstrates a basic movie recommendation engine built using Python. It leverages content-based filtering to suggest movies similar to the one you input. The system compares movie plots and recommends titles that share similarities based on cosine similarity.
 
 Features
-Content-Based Filtering: This approach suggests movies based on their content (e.g., genres, plot summary) that are similar to the user's input.
-Efficient Matching: Utilizes libraries like difflib to find the closest match for movie titles.
-Cosine Similarity: The recommendations are sorted by the similarity score calculated using cosine similarity, ensuring relevant suggestions.
+1. Content-Based Filtering: This approach suggests movies based on their content (e.g., genres, plot summary) that are similar to the user's input.
+2. Efficient Matching: Utilizes libraries like difflib to find the closest match for movie titles.
+3. Cosine Similarity: The recommendations are sorted by the similarity score calculated using cosine similarity, ensuring relevant suggestions.
 
 How it works
-Movie Input: The user inputs a movie title.
-Closest Match: The system finds the closest match for the input movie from the dataset.
-Recommendation: It computes similarity scores and returns a list of recommended movies sorted by their similarity.
+1. Movie Input: The user inputs a movie title.
+2. Closest Match: The system finds the closest match for the input movie from the dataset.
+3. Recommendation: It computes similarity scores and returns a list of recommended movies sorted by their similarity.
 
 Example
 When you input Twilight, the system suggests the following movies:
@@ -22,9 +22,9 @@ This is the output of the system :
 Dataset
 The movie data used in this project includes titles, descriptions, genres, and more, which are stored in a DataFrame. The dataset is processed using:
 
-Pandas: For data manipulation and analysis.
-Pickle: For saving the processed DataFrame for reuse.
-Difflib: For matching movie titles.
+1. Pandas: For data manipulation and analysis.
+2. Pickle: For saving the processed DataFrame for reuse.
+3. Difflib: For matching movie titles.
 
 How to Run the Project
 Clone the repository:
