@@ -28,19 +28,17 @@ How to Run the Project
 Clone the repository:
 
     bash
-    Copy code
     git clone https://github.com/yourusername/Movie-Recommendation-System.git
     cd Movie-Recommendation-System
     
 Install dependencies:
 
     bash
-    Copy code
     pip install -r requirements.txt
-    Run the Jupyter notebook:
+
+Run the Jupyter notebook:
 
     bash
-    Copy code
     jupyter notebook Movie_Recommendation_System.ipynb
     
 Input a movie title and get a list of recommended movies.
